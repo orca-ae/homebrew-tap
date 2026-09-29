@@ -2,7 +2,6 @@
 class Ork < Formula
   desc "CLI to manage & interact with resources in Orca Agent Engine"
   homepage "https://runorca.ai"
-  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
