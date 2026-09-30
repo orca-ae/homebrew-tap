@@ -1,29 +1,29 @@
-# Generated from the checksums of ork v0.5.0 by orca-ae/orca-cli's release workflow.
+# Generated from the checksums of ork v0.6.0 by orca-ae/orca-cli's release workflow.
 class Ork < Formula
   desc "CLI to manage & interact with resources in Orca Agent Engine"
   homepage "https://runorca.ai"
-  version "0.5.0"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/orca-ae/orca-cli/releases/download/v0.5.0/ork_v0.5.0_darwin_arm64.tar.gz"
-      sha256 "c5fadd6394bf421b4a881237e69f32ed09a512a58cd1cb20de18dd301af2a3e8"
+      url "https://github.com/orca-ae/orca-cli/releases/download/v0.6.0/ork_v0.6.0_darwin_arm64.tar.gz"
+      sha256 "4f619ab17d62cb2a8978b3dba0c8303f95db02f935776135d4f5fabbe57a20f4"
     end
     on_intel do
-      url "https://github.com/orca-ae/orca-cli/releases/download/v0.5.0/ork_v0.5.0_darwin_amd64.tar.gz"
-      sha256 "b54045c664e4d9704a453cc8239d0ac222a621dbb8fe81f871fd4d98c43c2a04"
+      url "https://github.com/orca-ae/orca-cli/releases/download/v0.6.0/ork_v0.6.0_darwin_amd64.tar.gz"
+      sha256 "88e33467ccb4a786a01156c7dac493e14b874f51c6b12d19e0d59828aa74158c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orca-ae/orca-cli/releases/download/v0.5.0/ork_v0.5.0_linux_arm64.tar.gz"
-      sha256 "bfaf8ac7e09ef4e18dab3c9ef4b39fa9919190cea4f6d72e2e7347f001fddddc"
+      url "https://github.com/orca-ae/orca-cli/releases/download/v0.6.0/ork_v0.6.0_linux_arm64.tar.gz"
+      sha256 "3420742469b65a05fc8b2af0b2e2f430ef146161b10c3db5aa728f8eac0a8aa4"
     end
     on_intel do
-      url "https://github.com/orca-ae/orca-cli/releases/download/v0.5.0/ork_v0.5.0_linux_amd64.tar.gz"
-      sha256 "4296c34a8bba0619dbbdfe9eeabf0800f42583ed3db6c4e08456f40ea1f67ddb"
+      url "https://github.com/orca-ae/orca-cli/releases/download/v0.6.0/ork_v0.6.0_linux_amd64.tar.gz"
+      sha256 "427a158b5e42f88cc4c171a1831a37da61b6917c5a7843971318080549a80a41"
     end
   end
 
